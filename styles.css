@@ -1,19 +1,39 @@
 body {
-    margin: auto;
-}
-.flex-container{
-    display: flex;
+    margin: 0px;
+    display: grid;
+    min-width: 100%;
     
 }
-
-.content, .img-container{
-    display: flex;
+.card-container{
+    display: inline-flex;
+    gap: 3%;
+    margin: 5%;
+    
 }
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
+p {
+   color: #66c5ea; 
+   margin: 2px;
+}
+.fill{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
-.flex-child:first-child {
-    margin-right: 20px;
-} 
+h1, h4 {
+    margin-top: 0;
+    color: #314563;
+}
+h1{
+    margin-bottom: 0;
+    
+}
+.logo{
+    margin-top: 5%;
+}
